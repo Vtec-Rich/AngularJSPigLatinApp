@@ -1,0 +1,61 @@
+$main-bg: #F1F1F1;
+$text-shadow-start: #e8e8e8;
+$text-shadow-end: #bfbfbf;
+$top-margin: 50px; 
+$btn-bg: #0135a4;
+$btn-color: #FFF;
+$btn-padding: 10px;
+$error-color: #ff0000;
+$result-font-size: 2em;
+
+@media only screen  {
+	html, body {
+		font-family: 'Lato', Arial, sans-serif;
+	}
+
+	body {
+		background:$main-bg;
+	}
+
+	.topMargin {
+		margin-top:$top-margin;
+	}
+
+	.textCenter {
+		text-align:center;
+	}
+
+	.italic {
+		font-style:italic;
+	}
+
+	.bold {
+		font-weight:bold;
+	}
+
+	h1, p, label {
+		text-shadow: 0 0 0 $text-shadow-start, 1px 1px 0 $text-shadow-end;
+	}
+
+	#submit {
+		border: none;
+	    background: $btn-bg;
+	    color: $btn-color;
+	    padding: $btn-padding;
+	}
+
+	#submit:hover {
+		cursor:pointer;
+		opacity:0.7;
+	}
+
+	.error {
+		color:$error-color;
+	}
+
+	.result {
+		font-size: $result-font-size;
+	    font-weight: bold;
+	    padding: 10px 0;
+	}
+}

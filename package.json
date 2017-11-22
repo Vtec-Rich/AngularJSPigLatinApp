@@ -1,0 +1,24 @@
+{
+  "name": "SimpleAngularApp",
+  "version": "1.0.0",
+  "description": "Pig Latin Angular App",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R. Warmingham",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-mocks": "^1.6.6"
+  }
+}

@@ -1,0 +1,41 @@
+@media only screen {
+  html, body {
+    font-family: 'Lato', Arial, sans-serif; }
+
+  body {
+    background: #F1F1F1; }
+
+  .topMargin {
+    margin-top: 50px; }
+
+  .textCenter {
+    text-align: center; }
+
+  .italic {
+    font-style: italic; }
+
+  .bold {
+    font-weight: bold; }
+
+  h1, p, label {
+    text-shadow: 0 0 0 #e8e8e8, 1px 1px 0 #bfbfbf; }
+
+  #submit {
+    border: none;
+    background: #0135a4;
+    color: #FFF;
+    padding: 10px; }
+
+  #submit:hover {
+    cursor: pointer;
+    opacity: 0.7; }
+
+  .error {
+    color: #ff0000; }
+
+  .result {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0; } }
+
+/*# sourceMappingURL=main.css.map */
